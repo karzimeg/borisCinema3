@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="stylesheet" href="booking.css" />
+
+    <title>Rezervacija</title>
+  </head>
+  <body>
+    <body>
+     
+    <div class="movie-container">
+      <label>Izaberite naslov</label>
+      <select id="movie">
+        <option value="400">Avengers: Endgame (400 rsd)</option>
+        <option value="550">Joker (550 rsd)</option>
+        <option value="300">Toy Story 4 (300 rsd)</option>
+        <option value="300">The Lion King (300 rsd)</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Slobodna mesta</small>
+      </li>
+
+      <li>
+        <div class="seat selected"></div>
+        <small>Izabrana</small>
+      </li>
+
+      <li>
+        <div class="seat occupied"></div>
+        <small>Zauzeta</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="screen"></div>
+      <div class="row">
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num occupied"></div>
+        <div class="seat seat-num occupied"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num occupied"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num occupied"></div>
+        <div class="seat seat-num occupied"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num occupied"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+        <div class="seat seat-num"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      Rezervisali ste <span id="count">0</span> sedišta. Ukupna cena karata
+      iznosi <span id="total">0</span> dinara
+    </p>
+    <button class="dugme">Rezerviši</button>
+    <button class="nazad"> <a href="index.html">Nazad</a></button>
+    <script src="booking.js"></script>
+
+  </body>
+</html>
